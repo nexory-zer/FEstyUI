@@ -1,0 +1,20 @@
+# FEstyUI: после изменения настроек выполните festyui service restart
+folder = "~/FEstyUI"
+poll_seconds = 2
+stable_seconds = 10
+cleanup_seconds = 60
+
+[images]
+cleanup = true
+hours = 24
+extensions = ["png", "jpg", "jpeg", "webp", "gif", "bmp", "heic"]
+
+[videos]
+cleanup = true
+hours = 24
+extensions = ["mp4", "mkv", "mov", "avi", "webm"]
+
+[documents]
+cleanup = true
+hours = 24
+extensions = ["pdf", "doc", "docx", "txt", "odt", "rtf", "xls", "xlsx", "csv", "ppt", "pptx"]
